@@ -61,7 +61,7 @@ outputs/best_PCK_epoch_170.pth \
 --draw-heatmap
 ```
 - 预测结果：  
-![预测图]([https://github.com/xiaomile](https://github.com/xiaomile/Openmmlab-AI-Camp-2th/)
+![预测图](https://github.com/xiaomile/Openmmlab-AI-Camp-2th/blob/main/%E4%BD%9C%E4%B8%9A1/test-my-ear-3.jpg)
 
 - 视频预测  
 
