@@ -42,16 +42,47 @@
 
 - 执行命令：  
 ```
-python demo/topdown_demo_with_mmdet.py rtmdet_tiny_ear.py outputs/best_coco_bbox_mAP_epoch_179.pth rtmpose-s-ear.py outputs/best_PCK_epoch_170.pth --input data/tests/test-my-ear3.jpg --output-root outputs --save-predictions --device cuda:0 --bbox-thr 0.3 --nms-thr 0.3 --kpt-thr 0.3 --show-kpt-idx --skeleton-style mmpose --radius 8 --draw-bbox --draw-heatmap
+python demo/topdown_demo_with_mmdet.py \
+rtmdet_tiny_ear.py \
+outputs/best_coco_bbox_mAP_epoch_179.pth \
+rtmpose-s-ear.py \
+outputs/best_PCK_epoch_170.pth \
+--input data/tests/test-my-ear3.jpg \
+--output-root outputs \
+--save-predictions \
+--device cuda:0 \
+--bbox-thr 0.5 \
+--nms-thr 0.5 \
+--kpt-thr 0.5 \
+--show-kpt-idx \
+--skeleton-style mmpose \
+--radius 8 \
+--draw-bbox \
+--draw-heatmap
 ```
 - 预测结果：  
-
+![预测图]([https://github.com/xiaomile](https://github.com/xiaomile/Openmmlab-AI-Camp-2th/)
 
 - 视频预测  
 
 - 执行命令：  
 ```
-python demo/topdown_demo_with_mmdet.py rtmdet_tiny_ear.py outputs/best_coco_bbox_mAP_epoch_179.pth rtmpose-s-ear.py outputs/best_PCK_epoch_170.pth --input data/tests/test-my-ear.mp4 --output-root outputs --save-predictions --device cuda:0 --bbox-thr 0.3 --nms-thr 0.3 --kpt-thr 0.3 --show-kpt-idx --skeleton-style mmpose --radius 8 --draw-bbox --draw-heatmap
+python demo/topdown_demo_with_mmdet.py \ 
+rtmdet_tiny_ear.py \
+outputs/best_coco_bbox_mAP_epoch_179.pth rtmpose-s-ear.py \
+outputs/best_PCK_epoch_170.pth \
+--input data/tests/test-my-ear.mp4 \
+--output-root outputs \
+--save-predictions \
+--device cuda:0 \
+--bbox-thr 0.4 \
+--nms-thr 0.4 \
+--kpt-thr 0.4 \
+--show-kpt-idx \
+--skeleton-style mmpose \
+--radius 8 \
+--draw-bbox \
+--draw-heatmap
 ```
 - 预测结果：  
 - 链接：https://pan.baidu.com/s/1gS0eyGGVUN2kmh9BNWyzkQ 提取码：86cr
