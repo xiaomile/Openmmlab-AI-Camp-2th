@@ -10,9 +10,9 @@
 ## 测试
 - 水果识别测试  
   测试图片链接：  
-  ![测试图片1](https://img.tukuppt.com/png_preview/00/32/69/XVPSNiZOLf.jpg!/fw/780)  
-  ![测试图片2](http://pic.ntimg.cn/20120307/2786001_171934764000_2.jpg)  
-  ![测试图片3](http://www.kuaipng.com/Uploads/pic/water/20621/goods_water_20621_698_930.67_.png)  
+  测试图片1: https://img.tukuppt.com/png_preview/00/32/69/XVPSNiZOLf.jpg!/fw/780  
+  测试图片2: http://pic.ntimg.cn/20120307/2786001_171934764000_2.jpg  
+  测试图片3: http://www.kuaipng.com/Uploads/pic/water/20621/goods_water_20621_698_930.67_.png  
 
 - 执行脚本：  
   testpic.py
