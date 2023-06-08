@@ -14,7 +14,7 @@
   测试图片2: http://pic.ntimg.cn/20120307/2786001_171934764000_2.jpg  
   测试图片3: http://www.kuaipng.com/Uploads/pic/water/20621/goods_water_20621_698_930.67_.png  
 
-- 执行脚本：  
+- 执行脚本(由于mmpretain那个demo不显示中文，所以我自己写个脚本来做预测)：  
   testpic.py
 
 - 预测结果：  
