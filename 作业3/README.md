@@ -29,7 +29,7 @@
 - 执行命令：  
   ```
   python demo/image_demo.py \
-  data/tests/balloon/balloon_test2.jpg \
+  data/tests/balloon/balloon_test.jpg \
   rtmdet_tiny_1xb12-balloon.py \
   --weights D:/github/mmdetection/outputs/balloon/best_coco_bbox_mAP_epoch_50.pth \
   --pred-score-thr 0.42 \
@@ -42,13 +42,42 @@
 ## 特征可视化
 
 - backbone 特征可视化  
+- 执行命令：  
+  ```
+  python demo/featmap_vis_demo.py \
+  data/tests/balloon/balloon_test.jpg \
+  ../mmdetection/rtmdet_tiny_1xb12-balloon.py \
+  ../mmdetection/outputs/balloon/best_coco_bbox_mAP_epoch_50.pth \
+  --target-layers backbone \
+  --channel-reduction squeeze_mean \
+  --show
+  ```  
 ![backbone特征可视化](https://github.com/xiaomile/Openmmlab-AI-Camp-2th/blob/main/%E4%BD%9C%E4%B8%9A3/myplot.png)  
 
 - neck 特征可视化  
+- 执行命令：  
+  ```
+  python demo/featmap_vis_demo.py \
+  data/tests/balloon/balloon_test.jpg \
+  ../mmdetection/rtmdet_tiny_1xb12-balloon.py \
+  ../mmdetection/outputs/balloon/best_coco_bbox_mAP_epoch_50.pth \
+  --target-layers neck \
+  --channel-reduction squeeze_mean \
+  --show 
+  ```  
 ![neck特征可视化](https://github.com/xiaomile/Openmmlab-AI-Camp-2th/blob/main/%E4%BD%9C%E4%B8%9A3/myplot2.png)  
 
 
 - grad-cam boxAM可视化  
+- 执行命令：  
+  ```
+  python demo/boxam_vis_demo.py \
+  data/tests/balloon/balloon_test.jpg \
+  ../mmdetection/rtmdet_tiny_1xb12-balloon.py \
+  ../mmdetection/outputs/balloon/best_coco_bbox_mAP_epoch_50.pth \
+  --target-layers neck.out_convs[2]  
+  --show 
+  ```  
 ![boxAM可视化](https://github.com/xiaomile/Openmmlab-AI-Camp-2th/blob/main/%E4%BD%9C%E4%B8%9A3/resized_image.jpg)  
 
 
