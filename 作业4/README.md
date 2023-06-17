@@ -7,7 +7,7 @@
 ```
 python tools/train.py pspnet-Watermelon87_Semantic_Seg_Mask_20230612.py
 ```  
-训练完成的权重文件
+训练完成的权重文件  
 权重文件 https://pan.baidu.com/s/1y9-9t8LSrRPvoBrg7kx2iA?pwd=mi01  
 
 ### 测试  
